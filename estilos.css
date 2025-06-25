@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f6fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container principal */
+.curriculo {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(108, 79, 179, 0.2);
+  border-radius: 12px;
+  border-left: 6px solid #7e3ff2;
+}
+
+/* Foto com moldura degradê roxa */
+.foto {
+  width: 160px;
+  height: 160px;
+  border-radius: 0%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, #9f6fe7, #7e3ff2) 1;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: #7e3ff2;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+h2 {
+  color: #6b2fc7;
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.info-contato {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 0.95em;
+}
+
+.secao {
+  margin-bottom: 30px;
+}
+
+/* Título da seção com fundo roxo */
+.titulo-secao {
+  background: linear-gradient(to right, #7e3ff2, #9f6fe7);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(126, 63, 242, 0.3);
+}
+
+/* Lista de habilidades */
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "✓";
+  color: #7e3ff2;
+  margin-right: 8px;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 10px;
+}
+
+/* Adicionais visuais */
+a {
+  color: #7e3ff2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
